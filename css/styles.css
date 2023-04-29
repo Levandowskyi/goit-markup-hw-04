@@ -275,6 +275,7 @@ img {
   text-transform: capitalize;
   color: var(--section-title-color);
   margin-bottom: 72px;
+  line-height: 1.1
 }
 
 .doing-list {
@@ -364,6 +365,7 @@ img {
 .customers-link:hover,
 .customers-link:focus{
 border-color: var(--hover-customers-icon);
+color: var(--hover-customers-icon);
 }
 
 .customers-icon{
