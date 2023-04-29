@@ -31,6 +31,9 @@ body {
   --portfolio-btn-bg-color-hover-focus: #404bbf;
   --border-btn: #e7e9fc;
   --advantages-bg-color:#f4f4fd;
+  --customers-link-border-color:#8e8f99;
+  --customers-link-hover-border-color:#404bbf;
+  --hover-customers-icon:#404BBF;
 }
 
 h1,
@@ -330,12 +333,50 @@ img {
   text-align: center;
 }
 
-/* Customers Section */
+/* Customers Section 5*/
 
 .customers-section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
+.customers-list{
+  display: flex;
+  gap: 24px;
+
+}
+
+.customers-item{
+  width: calc((100% - 120px) /6);
+  height: 88px;
+  }
+.customers-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: var(--customers-link-border-color);
+  border: 1px solid var(--customers-link-border-color);
+  border-radius:4px;
+}
+
+.customers-link:hover,
+.customers-link:focus{
+border-color: var(--hover-customers-icon);
+}
+
+.customers-icon{
+  fill: currentColor;
+}
+
+.customers-icon:hover,
+.customers-icon:focus{
+  fill: var(--hover-customers-icon);
+
+}
+
+
 
 /* Footer */
 
