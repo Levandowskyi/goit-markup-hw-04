@@ -34,7 +34,7 @@ body {
   --customers-link-border-color: #8e8f99;
   --customers-link-hover-border-color: #404bbf;
   --hover-customers-icon: #404bbf;
-  --footer-social-hover:#31d0aa;
+  --footer-social-hover: #31d0aa;
 }
 
 h1,
@@ -167,10 +167,8 @@ img {
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
     url(../images/hero/hero-image.jpg);
   max-width: 1440px;
   margin-left: auto;
@@ -341,7 +339,7 @@ img {
 
 .descr-container {
   padding: 32px 0
-  /* padding-left: 16px;
+    /* padding-left: 16px;
   padding-right: 16px; */
 }
 
@@ -382,6 +380,7 @@ img {
   width: calc((100% - 120px) / 6);
   height: 88px;
 }
+
 .customers-link {
   display: flex;
   justify-content: center;
@@ -457,24 +456,24 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--hero-title-color);
-  margin-bottom: 16px; 
+  margin-bottom: 16px;
 }
 
 
-.footer-social-list{
-display: flex;
-gap:16px;
+.footer-social-list {
+  display: flex;
+  gap: 16px;
 }
 
-.footer-social-item{
+.footer-social-item {
   width: 40px;
   height: 40px;
 }
 
-.footer-social-link{
+.footer-social-link {
   width: 100%;
   height: 100%;
-  background-color:var(--hero-btn-background-color);
+  background-color: var(--hero-btn-background-color);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -483,12 +482,12 @@ gap:16px;
 }
 
 .footer-social-link:hover,
-.footer-social-link:focus{
-  background-color:var(--footer-social-hover);
+.footer-social-link:focus {
+  background-color: var(--footer-social-hover);
 }
 
-.footer-social-icon{
-  fill:var(--advantages-bg-color)
+.footer-social-icon {
+  fill: var(--advantages-bg-color)
 }
 
 
@@ -537,7 +536,6 @@ gap:16px;
 }
 
 .gallery-item {
-  border: 1px solid #e7e9fc;
   flex-basis: calc((100% - 2 * 24px) / 3);
 }
 
@@ -547,7 +545,6 @@ gap:16px;
 
 .gallery-link:hover,
 .gallery-link:focus {
-  border: 1px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
